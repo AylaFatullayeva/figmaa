@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Text from "./components/Text";
 import Card from './components/Card'
+import Speaker from './components/Speaker'
+import NewArrival from "./components/NewArrival";
 
 
 const App = () => {
@@ -14,7 +16,11 @@ const App = () => {
       </div>
       <div className=" min-h-screen p-6">
         <Card/>
-        </div>
+      </div>
+      <div className=" min-h-screen p-6">
+        <Speaker/>
+      </div>
+      <NewArrival />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import Star from "./Card"
+import Star from "./Star"
 
 const ProductCard = ({product}) => {
   return (

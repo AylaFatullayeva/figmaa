@@ -1,4 +1,8 @@
 import ProductCard from "./ProductCard";
+import Image1 from '../assets/consolepic.png'
+import Image2 from '../assets/keyboardpic.png'
+import Image3 from '../assets/tvpic.png'
+import Image4 from '../assets/chairpic.png'
 
 const products = [
     {
@@ -9,7 +13,7 @@ const products = [
       discount: "-40%",
       rating: 5,
       reviews: 88,
-      image: "consolepic.png",
+      image: Image1,
     },
     {
       id: 2,
@@ -19,7 +23,7 @@ const products = [
       discount: "-35%",
       rating: 4,
       reviews: 75,
-      image: "keyboardpic.png",
+      image: Image2,
     },
     {
       id: 3,
@@ -29,7 +33,7 @@ const products = [
       discount: "-30%",
       rating: 5,
       reviews: 99,
-      image: "tvpic.png",
+      image: Image3,
     },
     {
       id: 4,
@@ -39,7 +43,7 @@ const products = [
       discount: "-25%",
       rating: 5,
       reviews: 99,
-      image: "chairpic.png",
+      image: Image4,
     },
   ];
   

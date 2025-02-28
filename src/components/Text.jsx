@@ -1,3 +1,4 @@
+import Hero from '../assets/hero.png'
 const Text = () => {
     return (
       <div className="flex-1 p-6">
@@ -11,7 +12,7 @@ const Text = () => {
           </div>
          
 
-          <img src="hero.png" alt="phone" className="ml-auto flex-wrap" />
+          <img src={Hero} alt="phone" className="ml-auto flex-wrap" />
           
         </div>
       </div>
