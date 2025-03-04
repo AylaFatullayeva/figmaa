@@ -16,50 +16,49 @@ const NewArrival = () => {
 
       <div className="flex gap-x-5">
 
-        <div className="relative h-[500px] w-[500px] bg-black">
+        <div className="relative h-[500px] w-[500px] bg-black rounded-s">
           <img src={Ps5} alt="PS5" className=" rounded-lg" />
           <div className="absolute bottom-5 left-5 text-white">
             <h3 className="text-xl font-semibold">PlayStation 5</h3>
             <p className="text-sm">Black and White version of the PS5 coming out on sale.</p>
-            <button className="mt-2 px-4 py-2 text-white font-semibold rounded-lg underline">
+            <button className="mt-2 text-white font-semibold rounded-lg underline">
               Shop Now
             </button>
           </div>
         </div>
 
         <div className=' flex flex-col gap-y-5'>
-          <div className="relative h-[250px] w-[500px]  bg-black">
-            <img src={Woman} alt="Women" className=" rounded-lg object-cover absolute bottom-0 right-1 h-[250px]"  />
+          <div className="relative h-[240px] w-[500px]  bg-black rounded-s">
+            <img src={Woman} alt="Women" className=" rounded-lg object-cover absolute bottom-0 right-1 h-[240px]"  />
 
             <div className="absolute bottom-5 left-5 text-white">
               <h3 className="text-lg font-semibold">Womens Collections</h3>
               <p className="text-base">Featured women collections that <br /> give you another vibe.</p>
-              <button className="mt-2  py-2 text-white font-semibold rounded-lg underline">
+              <button className="mt-2 text-white font-semibold rounded-lg underline">
                 Shop Now
               </button>
             </div>
-
           </div>
 
-<div className='flex'>
+<div className='flex justify-between'>
 
-          <div className="relative h-[250px] w-[250px] bg-black">
-            <img src={Speaker} alt="Speakers" className=" rounded-lg" />
+          <div className="relative h-[240px] w-[240px] flex items-center justify-center bg-black rounded-s">
+            <img src={Speaker} alt="Speakers" className=" rounded-lg " />
             <div className="absolute bottom-5 left-5 text-white">
               <h3 className="text-lg font-semibold">Speakers</h3>
               <p className="text-sm">Amazon wireless speakers.</p>
-              <button className="mt-2 px-4 py-2 text-white font-semibold rounded-lg underline">
+              <button className="mt-2 text-white font-semibold rounded-lg underline">
                 Shop Now
               </button>
             </div>
           </div>
 
-          <div className="relative h-[250px] w-[250px] bg-black">
+          <div className="relative h-[240px] w-[240px] flex items-center justify-center bg-black rounded-s">
             <img src={Perfume} alt="Perfume" className=" rounded-lg flex-wrap bg-transparent drop-shadow-[0_5px_5px_white]" />
             <div className="absolute bottom-5 left-5 text-white">
               <h3 className="text-lg font-semibold">Perfume</h3>
               <p className="text-sm">GUCCI INTENSEOUD EDP.</p>
-              <button className="mt-2 px-4 py-2 text-white font-semibold rounded-lg underline">
+              <button className="mt-2 text-white font-semibold rounded-lg underline">
                 Shop Now
               </button>
               </div>

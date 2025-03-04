@@ -12,7 +12,7 @@ const Speaker = () => {
           <button className="mt-4  text-white py-2 px-7 rounded-md bg-green-500">Buy Now!</button>
           </div>
          
-          <img src={Boombox} alt="boombox" className="ml-auto flex-wrap bg-transparent drop-shadow-[0_5px_5px_white]" />
+          <img src={Boombox} alt="boombox" className="ml-auto flex-wrap bg-transparent drop-shadow-[20px_20px_20px_gray]" />
          
           
         </div>
